@@ -1,48 +1,69 @@
 *{
   margin:0;
 }
+
+
+
 header{
 
   position:fixed;
-
+  color:#DC143C;
   width:100%;  
-  height:240px;    
+  height:200px;    
   z-index: 1001;
-  background:;
-
-
-}
-.fb{
-    font-size: 50px;
-  background: ;
-}
-
-
-.nav-link{
-  display: block;
-  background:;
-
-}
-.nav-link:hover{
-  background:red;
-  color:red;
-
-
-
-
-}
-
-.carousel-item{ 
-position: relative;
-width: 100%;
-height: 500px;
-
- }
- .carousel{
-  position: relative;
-  top:116px;
   
+
+
+  }
+
+
+
+.fb {
+ position: absolute;
+ font-size:50px;
+ top:30px;
+ right:70px;
+ 
+ 
+
 }
+
+
+nav img {
+  position: relative;
+  background:red;
+  left:50px;
+  
+
+}
+
+ul a{
+
+ display: block;
+ padding: 10px;
+ left: 20px;
+ color:#DC143C;
+ text-decoration:none;
+ font-family: 'Gravitas One', cursive;
+
+
+    }
+    
+
+
+    ul a:hover{
+  background:#ccc;
+  width:100%;
+  text-decoration:none;
+  color:red;
+  cursor:pointer;
+  
+
+
+}
+
+
+
  body{
    background: url(imagen/tabla.jpg) no-repeat center top ; 
   font-family: 'Architects Daughter', cursive;
@@ -50,6 +71,9 @@ height: 500px;
   font-size:20px;
 
  }
+
+
+
  .contenido-seccion{
 
   position: relative;
@@ -69,64 +93,64 @@ height: 500px;
  .p{
   color: red;
 }
+
+.texto{
+
+   color:#00FF00;
+   background:;
+}
+
+
+
 .borde2{
   position: relative;
-  top:150px;
+  top:100px;
  }
+
+
+
  .border2{
-  position: relative;
+  position:relative;
   top:200px;
+  background: ;
  }
+
+
+
  .border3{
 
   position: relative;
-  top:250px;
+  top:300px;
  }
 
 
  .border4{
 
   position: relative;
-  top:300px;
+  top:400px;
  }
 
  .border5{
 
   position: relative;
-  top:350px;
- }
- .border6{
-
-  position: relative;
-  top:400px;
- }
-
- .border7{
-
-  position: relative;
-  top:450px;
- }
-
- .border8{
-
-  position: relative;
   top:500px;
- }
 
- .border9{
 
-  position: relative;
-  top:550px;
- }
+}
+
+ 
+
+
+
 
  
 hr{
 
-background-color:#fff;  
+background-color:#00FF00;;  
 
 }
 footer{
-  top:300px;
+  top:600px;
   position: relative;
   width:100%;
   height: auto;
@@ -149,146 +173,3 @@ footer{
 
 
 
-
-/**{  
- margin:0;
- box-sizing: border-box;
- 
-}
-
-
-/****comienza section****
-
-header{
-  position:fixed;
-  top:0;
-  left: 0;
-  width:100%;  
-  height:240px;    
-  z-index: 1001;
-  background:;
-}
-.pro{ 
-  font-family: 'Luckiest Guy', cursive;
-  /*font-family: 'Alfa Slab One', cursive;*
-  width:80%;
-  height:80%;
-  background:#8B0000;
-  color:#fff;
-  padding:25px;
-  top:50px;
-
-
-}
-.logo{
-
-  position: relative;
-  width:60%;
-  height:80%;
-  padding:20px;
-  top:-20px;
-  
-}
-.face{
-  position: relative;
-  top:20px;
-} 
-.border4{
-  position: relative;
-  top:-29px;
-  background: #8B0000;
-}
-.nav{
-  position: relative;
-  max-width: 100%;
-
-
-
-}
-.nav li{
-
-  display: inline-block;
-  position:relative;
-  width:120px;
-  
-}
-.nav a {
-
-  position:relative;
-  color:#fff;
-  text-decoration: none;
-  background: #8B0000/*#fff*
-  padding:3px;
-  border-radius:10px;
-
-
-}
-
-.menu--link{
-  display: block;
-  background:#8B0000;
-
-}
-.menu--link:hover{
-  background:#fff;
-  color:red;
-
-
-
-}
-body{
-  font-family: 'Architects Daughter', cursive;
-  /*font-family: 'Cinzel', serif;*
-  background:#000;
-  color:#fff;
-  font-size:20px;
-  background: rgba(0,0,0,0.9);
-}
-.p{
-  color: red;
-}
-
-/*comienza cuerpo*
-
-
-
-.border5{
-  top:350px;
-}
-.border6{
-  top:400px;
-}
-.border7{
-  top:450px;
-}
-.border8{
-  top:500px;
-}
-
-.border9{
-  top:300px;
-}
-
-.menu2{
-
-  top:600px;
-  list-style:none;
-  display:inline-block;
-
-
-}
-
-hr{
-
- background-color:#fff;
-
-}
-.menu2 li{
-  font-size: 60px;
-  display: inline-block;
-  margin:10px;
-  max-width: 100%;
-  position:relative;
-  left:650px;
-
-}***/
