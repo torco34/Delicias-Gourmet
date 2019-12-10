@@ -65,7 +65,11 @@ nav img {
 
 }
 
-
+.face{
+  position: relative;
+  right: 50px;
+  background: ;
+}
 
 body{
   color:#00FF00;
