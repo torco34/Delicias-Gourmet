@@ -17,6 +17,13 @@ header{
 
 }
 
+.facebook{
+  position: relative;
+  top:40px;
+  left:20px;
+  background:#fff;
+  border-radius: 5px 5px 5px 5px;
+}
 
 
 .menu li a{

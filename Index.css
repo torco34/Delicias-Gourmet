@@ -8,7 +8,7 @@
 header{
 
   position:fixed;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   width:100%;  
   height:;    
   z-index: 1001;
@@ -48,7 +48,15 @@ header{
   height: 500px;
 
 }
+.facebook{
 
+ 
+  position: relative;
+  top:40px;
+  right: 20px;
+  background:#fff;
+  border-radius: 5px 5px 5px 5px;
+}
 
 
 .carousel{
@@ -58,13 +66,15 @@ header{
 }
 
 .carousel-caption h3 {
- color:#fff;
- font-size:20px;
+ color:#00FF00;
+ font-size:30px;
  font-family: 'Spicy Rice', cursive;
 }
 
 .carousel p{
-  color:#00FF00;
+  color:#fff;
+  font-size: 30px;
+   font-family: 'Spicy Rice', cursive;
 }
 
 body{
@@ -114,9 +124,7 @@ font-family: 'Spicy Rice', cursive;
   position: relative;
   margin-top:20px;
  font-family: 'Bad Script', cursive;
-
-
-  background:rgba(0, 0, 0, 0.5);
+  background:rgba(0, 0, 0, 0.7);
   left:30px;
   border-radius: 10px 10px 10px 10px;
 }
@@ -179,7 +187,7 @@ hr{
 
 .texto{
 font-size: 30px;
-   color:#fff;
+   color:#00FF00;
    font-family: 'Spicy Rice', cursive;
   
 }
